@@ -16,8 +16,9 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 65px;
   margin: 40px 150px;
+  background-color: white;
 }
 .basic-box1 {
   display: flex;
@@ -38,7 +39,7 @@ main {
   gap: 30px;
   width: 50%;
 }
-.content-box1 {
+.text-box1 {
   font-size: 62px;
   font-family: "myFont-H";
   background: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
@@ -46,7 +47,7 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.content-box2 {
+.content-box1 {
   font-family: "myFont";
   color: #385159;
   font-size: 20px;
@@ -81,7 +82,43 @@ main {
   height: 100%;
   border-radius: 15px;
 }
-.right-box1 {
+.img {
   width: 50%;
   height: 50%;
+}
+.basic-box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 80px;
+}
+.img.image-read-together {
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+}
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 50%;
+}
+.text-box2 {
+  font-size: 50px;
+  font-family: "myFont-H";
+  font-weight: bold;
+}
+.check-list {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  font-size: 20px;
+  color: #385159;
+  list-style: url("./pic/icon-check.svg");
+  justify-content: center;
+  gap: 30px;
+  font-family: "myFont";
+  
+  
 }
