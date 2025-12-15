@@ -16,7 +16,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 65px;
+  gap: 80px;
   margin: 40px 150px;
   background-color: white;
 }
@@ -24,6 +24,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
   gap: 20px;
   background-image: url("./pic/pattern-glow.svg");
 }
@@ -119,6 +120,41 @@ main {
   justify-content: center;
   gap: 30px;
   font-family: "myFont";
-  
-  
+}
+.basic-box3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  gap: 80px;
+  width: 100%;
+}
+
+.circle {
+  position: absolute;
+  left: 290px;
+  top: 1530px;
+  width: 200px;
+}
+.section3-h {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 100%;
+}
+.text-box3 {
+  color: #385159;
+  font-size: 20px;
+  font-family: "myFont";
+}
+.logos-tech{
+  position: absolute;
+  left: 750px;
+  top: 1810px;
+  width: 130px;
+}
+.img-not-averege {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
 }
